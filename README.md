@@ -48,12 +48,14 @@ Esta App Web es un sistema de gestión de usuarios realizada con ReactJS, materi
 Instala mi proyecto con npm
 
 ```bash
+  cd prueba-tecnica-prado
   cd front
   npm install
   npm start
 ```
 
 ```bash
+  prueba-tecnica-prado
   cd api
   npm install
   npm start
