@@ -39,7 +39,7 @@ Prado Carretero Ayala. Adalab
 
 ## Descrpición del ejercicio
 
-Esta App Web es un sistema de festión de usuarios realizada con ReactJS, material UI https://material-ui.com y consulta la información de los usuarios a través de una api.
+Esta App Web es un sistema de gestión de usuarios realizada con ReactJS, material UI https://material-ui.com y consulta la información de los usuarios a través de una api.
 
 > Esta aplicación obtiene, modifica, borra y crea usuarios a través de la api.
 
