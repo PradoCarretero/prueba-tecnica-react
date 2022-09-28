@@ -1,6 +1,7 @@
 # Prueba Técnica Indigitall React
 
 Prado Carretero Ayala. Adalab
+![WebApp](https://s4.gifyu.com/images/webapp.gif)
 
 ## Notas a quien corrija el ejercicio
 
@@ -97,6 +98,3 @@ Instala mi proyecto con npm
   `PUT` /user/{id}
 ```
 
-## Demo
-
-![WebApp](https://s4.gifyu.com/images/webapp.gif)
