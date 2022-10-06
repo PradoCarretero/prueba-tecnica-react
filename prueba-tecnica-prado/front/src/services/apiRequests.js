@@ -20,7 +20,7 @@ const postApiData = async (data) => {
     const result = await resp.json();
     return result;
   } catch (error) {
-    error.log(`Error fetch post: ${error}`);
+    console.error(`Error fetch post: ${error}`);
   }
 };
 
@@ -30,18 +30,20 @@ const deleteApiData = async (id) => {
       method: "DELETE",
     });
   } catch (error) {
-    error.log(`Error fetch delete: ${error}`);
+    console.error(`Error fetch delete: ${error}`);
   }
 };
 
-const putApiData = (id, newRow) => {
-  return fetch(`${URL}/user/${id}`, {
-    method: "PUT",
-    body: JSON.stringify(newRow),
-    headers: { "Content-Type": "application/json" },
-  })
-    .then((response) => response.json())
-    .catch((error) => console.log(`Error fetch put: ${error}`));
+const putApiData = async (id, newRow) => {
+  try {
+    const response = await fetch(`${URL}/user/${id}`, {
+      method: "PUT",
+      body: JSON.stringify(newRow),
+      headers: { "Content-Type": "application/json" },
+    });
+  } catch (error) {
+    console.error(`Error fetch put: ${error}`);
+  }
 };
 
 export default { getApiData, postApiData, deleteApiData, putApiData };
