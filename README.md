@@ -1,6 +1,7 @@
 # Prueba Técnica Indigitall React
 
 Prado Carretero Ayala. Adalab
+![WebApp](https://s4.gifyu.com/images/webapp.gif)
 
 ## Notas a quien corrija el ejercicio
 
@@ -48,12 +49,14 @@ Esta App Web es un sistema de gestión de usuarios realizada con ReactJS, materi
 Instala mi proyecto con npm
 
 ```bash
+  cd prueba-tecnica-prado
   cd front
   npm install
   npm start
 ```
 
 ```bash
+  prueba-tecnica-prado
   cd api
   npm install
   npm start
@@ -95,6 +98,3 @@ Instala mi proyecto con npm
   `PUT` /user/{id}
 ```
 
-## Demo
-
-![WebApp](https://s4.gifyu.com/images/webapp.gif)
