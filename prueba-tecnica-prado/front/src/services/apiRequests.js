@@ -1,13 +1,13 @@
 import { URL } from "../settings.js";
 
-const getApiData = () => {
-  return fetch(`${URL}/users`)
-    .then((response) => response.json())
-    .catch((error) => console.error(error))
-    .then((response) => {
-      const result = response;
-      return result;
-    });
+const getApiData = async () => {
+  try {
+    const resp = await fetch(`${URL}/users`);
+    const result = await resp.json();
+    return result;
+  } catch (error) {
+    console.error(error);
+  }
 };
 
 const postApiData = (data) => {
