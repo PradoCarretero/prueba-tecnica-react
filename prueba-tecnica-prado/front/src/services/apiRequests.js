@@ -17,7 +17,7 @@ const postApiData = (data) => {
     headers: { "Content-Type": "application/json" },
   })
     .then((response) => response.json())
-    .catch((error) => console.log(`Error fetch post: ${error}`));
+    .catch((error) => error.log(`Error fetch post: ${error}`));
 };
 
 const deleteApiData = (id) => {
