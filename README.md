@@ -1,4 +1,4 @@
-# Prueba Técnica Indigitall React
+# Prueba Técnica React (realizada sobre la base de back-end) 
 
 Prado Carretero Ayala. Adalab
 ![WebApp](https://s4.gifyu.com/images/webapp.gif)
